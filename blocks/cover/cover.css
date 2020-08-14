@@ -1,0 +1,12 @@
+.cover {
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: auto;
+}
+
+@media screen and (max-width: 720px) {
+	.cover {
+		min-width: calc(100% - 32px);
+		flex-direction: column;
+	}
+}

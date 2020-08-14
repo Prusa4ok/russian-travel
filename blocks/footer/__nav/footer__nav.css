@@ -1,0 +1,23 @@
+.footer__nav {
+	display: grid;
+	grid-template-columns: repeat(5, auto);
+	grid-gap: 18px;
+	list-style-type: none;
+	padding: 0;
+	margin: 90px 0 24px 0;
+}
+
+@media screen and (max-width: 720px) {
+	.footer__nav {
+		display: grid;
+		grid-template-columns: auto;
+		grid-template-rows: repeat(5, auto);
+		grid-gap: 32px;
+	}
+}
+
+@media screen and (max-width: 720px) {
+	.footer__nav {
+		margin-bottom: 48px;
+	}
+}

@@ -1,0 +1,17 @@
+.places__card_content_paragraph {
+	font-size: 16px;
+	line-height: 163%;
+	margin: 0 0 24px 0;
+}
+
+@media screen and (min-width: 768px) {
+	.places__card_content_paragraph {
+		font-size: 18px;
+		line-height: 163%;
+		margin-bottom: 64px;
+	}
+}
+
+.places__card_content_paragraph:nth-last-child(1) {
+	margin-bottom: 0;
+}
