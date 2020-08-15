@@ -3,6 +3,7 @@
 	line-height: 18px;
 	color: #fff;
 	text-decoration: none;
+	transition: .3s;
 }
 
 .footer__nav-link:hover {

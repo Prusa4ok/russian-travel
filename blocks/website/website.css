@@ -1,0 +1,9 @@
+.website {
+	align-self: end;
+}
+
+@media screen and (max-width: 720px) {
+	.website {
+		display: none;
+	}
+}

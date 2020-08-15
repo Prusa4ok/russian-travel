@@ -5,13 +5,7 @@
 	min-width: calc(100% - 96px);
 }
 
-@media screen and (max-width: 1024px) {
-	.footer {
-		min-width: calc(100% - 96px);
-	}
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
 	.footer {
 		min-width: calc(100% - 48px);
 	}
@@ -23,3 +17,5 @@
 		flex-direction: column;
 	}
 }
+
+/* кажется я и тут неправильно понял, в макете видел отступы 48, 24 и 16 пикселей, на них и оринтировался. Всё еще не понял в чём ошибка*/

@@ -1,0 +1,22 @@
+.places__articles {
+	list-style-type: none;
+	padding: 0;
+}
+
+@media screen and (min-width: 1280px) {
+	.places__articles {
+		min-width: 484px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.places__articles {
+		min-width: 352px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.places__articles {
+		margin-left: 16px;
+	}
+}

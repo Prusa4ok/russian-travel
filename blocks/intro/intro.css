@@ -1,16 +1,17 @@
 .intro {
-	align-self: start;
 	max-width: 690px;
+	padding-right: 294px;
 }
 
-@media screen and (max-width: 952px) {
+@media screen and (max-width: 1024px) {
 	.intro {
-		margin-left: 24px;
+		padding-right: 238px;
 	}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
 	.intro {
-		margin-left: 16px;
+		padding-right: 0;
+		max-width: 80%;
 	}
 }

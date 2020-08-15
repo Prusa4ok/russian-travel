@@ -1,12 +1,10 @@
 .cover__overlay {
-	background: #2A2C2F;
-	opacity: 0.3;
 	z-index: 2;
 	grid-column: 1;
 	grid-row: 1;
-	transition: .8s;
-}
-
-.cover__overlay:hover {
-	opacity: .8;
+	display: grid;
+	justify-content: center;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
 }
