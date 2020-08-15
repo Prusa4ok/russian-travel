@@ -1,17 +1,17 @@
 .photo-grid {
 	min-width: calc(100% - 96px);
-	margin-top: 92px;
+	padding-top: 92px;
 }
 
 @media screen and (max-width: 768px) {
 	.photo-grid {
 		min-width: calc(100% - 48px);
-		margin-top: 88px;
+		padding-top: 88px;
 	}
 }
 
 @media screen and (max-width: 352px) {
 	.photo-grid {
-		margin-top: 64px;
+		padding-top: 64px;
 	}
 }
