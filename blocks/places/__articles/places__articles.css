@@ -15,8 +15,8 @@
 	}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 720px) {
 	.places__articles {
-		margin-left: 16px;
+		margin: 0 16px;
 	}
 }
