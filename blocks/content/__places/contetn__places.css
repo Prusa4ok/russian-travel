@@ -1,3 +1,9 @@
 .content__places {
 	margin: 90px 0 92px 0;
 }
+
+@media screen and (max-width: 720px) {
+	.content__places {
+		margin-bottom: 40px;
+	}
+}
