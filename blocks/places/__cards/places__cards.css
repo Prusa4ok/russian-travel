@@ -1,7 +1,0 @@
-.places__cards {
-	display: grid;
-	grid-template-columns: auto;
-	grid-gap: 80px;
-	margin: 90px 0 92px 0;
-	padding: 0;
-}
